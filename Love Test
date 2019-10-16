@@ -1,0 +1,44 @@
+<html>
+<header>
+
+<body>
+<script type="text/javascript">
+
+function fn1()
+{
+var bt1=document.getelementbyid("bt1");
+var bt2=document.getelementbyid("bt2");
+var bt3=document.getelementbyid("bt3");
+
+if(bt1.checked==true)
+	alert(bt1);
+	else if(bt2.checked==true)
+	Alert(bt2);
+	else if(bt3.checked==true)
+	alert(bt3);
+	else
+	alert("No Option Selected");
+
+
+}
+
+</script>
+</body>
+
+<h1>Love Test</h1>
+
+<br>
+<input id="bt1" name="LT" 		type="radio" value="Ajaz Loves You Baby">You Love Ajaz</input>
+<br>
+
+<input id="bt1" name="LT" 		type="radio" value="Ajaz Still Loves You Baby">You Don't Love Ajaz</input>
+<br>
+
+<input id="bt1" name="LT" 		type="radio" value="How Mean, !! But Ajaz Loves You most">You Hate Ajaz</input>
+<br>
+
+<button onclick="fn1()" id="bt1">Submit</button>
+
+
+</header>
+</html>
